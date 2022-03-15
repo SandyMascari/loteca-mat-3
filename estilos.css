@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h3 {
+  font-size: 5em;
+  color:rgb(0, 77, 100);
+  font-family: Impact, sans-serif;
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(9, 9, 10);
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.selecao, .btnSort, .sorteio, .acertos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btnSort > button {
+  font-size: 2em;
+  padding: 10px 25px;
+  background-color: gray;
+}
+
+.selecao > input {
+  width: 1.5em;
+  font-size: 4em;
+  margin-right: 15px;
+  background-color: white;
+}
+
+
+footer {
+  background-color:black;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+footer > p {
+  color: white;
+  font-size: 2em;
+}
